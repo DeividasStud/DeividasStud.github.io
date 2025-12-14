@@ -181,6 +181,77 @@
           
           
             <article class="post-preview">
+    <a href="https://DeividasStud.github.io/posts/zelda-post/">
+        <h2 class="post-title">The Legend of Zelda: Breath of the Wild</h2>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on December 15, 2025
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <p>Šiame poste yra pateikiamas kodo fragmentas (iš tikro ne šio žaidimo) FOTO DĖMESIUI!
+Nusipirkau switch 2 labai fainai žaist šitą žaidimą ant jo, rekomenduoju ir konsolę ir žaidimą.</p>
+<p><img src="/images/botw.jpg" alt="Mano nuotrauka"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">bool</span> <span style="color:#a6e22e">IsInputValid</span>(<span style="color:#66d9ef">char</span> player, <span style="color:#66d9ef">char</span> colLetter, <span style="color:#66d9ef">short</span> rowNum) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (isActionInCenter) {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> ((colLetter <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;D&#39;</span> <span style="color:#f92672">&amp;&amp;</span> rowNum <span style="color:#f92672">==</span> <span style="color:#ae81ff">4</span> <span style="color:#f92672">&amp;&amp;</span> boardInfo[{<span style="color:#e6db74">&#39;D&#39;</span>, <span style="color:#ae81ff">4</span>}] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;O&#39;</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">||</span> (colLetter <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;D&#39;</span> <span style="color:#f92672">&amp;&amp;</span> rowNum <span style="color:#f92672">==</span> <span style="color:#ae81ff">5</span> <span style="color:#f92672">&amp;&amp;</span> boardInfo[{<span style="color:#e6db74">&#39;D&#39;</span>, <span style="color:#ae81ff">5</span>}] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;O&#39;</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">||</span> (colLetter <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;E&#39;</span> <span style="color:#f92672">&amp;&amp;</span> rowNum <span style="color:#f92672">==</span> <span style="color:#ae81ff">4</span> <span style="color:#f92672">&amp;&amp;</span> boardInfo[{<span style="color:#e6db74">&#39;E&#39;</span>, <span style="color:#ae81ff">4</span>}] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;O&#39;</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">||</span> (colLetter <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;E&#39;</span> <span style="color:#f92672">&amp;&amp;</span> rowNum <span style="color:#f92672">==</span> <span style="color:#ae81ff">5</span>) <span style="color:#f92672">&amp;&amp;</span> boardInfo[{<span style="color:#e6db74">&#39;E&#39;</span>, <span style="color:#ae81ff">5</span>}] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;O&#39;</span>) <span style="color:#66d9ef">return</span> true;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span> (boardInfo[{colLetter, rowNum}] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;O&#39;</span>) {
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">char</span> opponent <span style="color:#f92672">=</span> (player <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;B&#39;</span>) <span style="color:#f92672">?</span> <span style="color:#e6db74">&#39;W&#39;</span> <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;B&#39;</span>;
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">short</span> currentColNum <span style="color:#f92672">=</span> GetColumnNumber(colLetter);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">auto</span> direction : directions) {
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">short</span> x <span style="color:#f92672">=</span> direction[<span style="color:#ae81ff">0</span>];
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">short</span> y <span style="color:#f92672">=</span> direction[<span style="color:#ae81ff">1</span>];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="color:#66d9ef">if</span> (boardInfo[{GetColumnLetterByNumber(currentColNum <span style="color:#f92672">+</span> x),
+</span></span><span style="display:flex;"><span>                    rowNum <span style="color:#f92672">+</span> y}] <span style="color:#f92672">==</span> opponent) {
+</span></span><span style="display:flex;"><span>                    currentFlanks.clear();
+</span></span><span style="display:flex;"><span>                    <span style="color:#66d9ef">if</span> (CanFlankOpponent(x, y, opponent, currentColNum, rowNum)) {
+</span></span><span style="display:flex;"><span>                        <span style="color:#66d9ef">if</span> (currentFlanks.size() <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) {
+</span></span><span style="display:flex;"><span>                            flanks.insert(flanks.end(), currentFlanks.begin(), currentFlanks.end());
+</span></span><span style="display:flex;"><span>                        }
+</span></span><span style="display:flex;"><span>                    }
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (flanks.size() <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) <span style="color:#66d9ef">return</span> true;
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> false;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+        
+    </div>
+
+    
+
+</article>
+          
+            <article class="post-preview">
     <a href="https://DeividasStud.github.io/posts/naujas-puslapis/">
         <h2 class="post-title">Mano naujas puslapis</h2>
         
