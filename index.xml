@@ -6,8 +6,29 @@
     <description>Recent content on Mano Hugo svetaine</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Dec 2025 01:16:27 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://DeividasStud.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apie šią svetainę</title>
+      <link>https://DeividasStud.github.io/about/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://DeividasStud.github.io/about/</guid>
+      <description>&lt;p&gt;Ši svetainė sukurta atliekant debesų kompiuterijos 1 namų darbą.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Susisiekite</title>
+      <link>https://DeividasStud.github.io/contact/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://DeividasStud.github.io/contact/</guid>
+      <description>&lt;p&gt;Turite klausimų? Siųskite laišką paštu &lt;a href=&#34;mailto:deividas.girdvilis@stud.vilniustech.lt&#34;&gt;email&lt;/a&gt;&#xA;arba galite užpildyti anketą:&lt;/p&gt;&#xA;&lt;form action=&#34;https://formspree.io/f/xxxx&#34; method=&#34;POST&#34; style=&#34;max-width:600px; margin:auto; padding:20px; border:1px solid #ddd; border-radius:10px; background:#f9f9f9;&#34;&gt;&#xA;  &lt;h2 style=&#34;text-align:center;&#34;&gt;Anketos forma&lt;/h2&gt;&#xA;&lt;p&gt;&lt;label for=&#34;name&#34;&gt;Vardas:&lt;/label&gt;&lt;br&gt;&#xA;&lt;input type=&#34;text&#34; id=&#34;name&#34; name=&#34;name&#34; placeholder=&#34;Įveskite vardą&#34; style=&#34;width:100%; padding:8px; margin-bottom:10px; border-radius:5px; border:1px solid #ccc;&#34;&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;label for=&#34;email&#34;&gt;El. paštas:&lt;/label&gt;&lt;br&gt;&#xA;&lt;input type=&#34;email&#34; id=&#34;email&#34; name=&#34;email&#34; placeholder=&#34;Įveskite el. paštą&#34; style=&#34;width:100%; padding:8px; margin-bottom:10px; border-radius:5px; border:1px solid #ccc;&#34;&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;label for=&#34;age&#34;&gt;Amžius:&lt;/label&gt;&lt;br&gt;&#xA;&lt;input type=&#34;number&#34; id=&#34;age&#34; name=&#34;age&#34; placeholder=&#34;Įveskite amžių&#34; style=&#34;width:100%; padding:8px; margin-bottom:10px; border-radius:5px; border:1px solid #ccc;&#34;&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;label for=&#34;feedback&#34;&gt;Pastabos / komentarai:&lt;/label&gt;&lt;br&gt;&lt;/p&gt;&#xA;  &lt;textarea id=&#34;feedback&#34; name=&#34;feedback&#34; rows=&#34;4&#34; placeholder=&#34;Jūsų pastabos&#34; style=&#34;width:100%; padding:8px; margin-bottom:10px; border-radius:5px; border:1px solid #ccc;&#34;&gt;&lt;/textarea&gt;&lt;br&gt;&#xA;&lt;p&gt;&lt;button type=&#34;submit&#34; style=&#34;width:100%; padding:10px; border:none; border-radius:5px; background:#4CAF50; color:white; font-size:16px;&#34;&gt;Siųsti&lt;/button&gt;&lt;/p&gt;&#xA;&lt;/form&gt;</description>
+    </item>
+    <item>
+      <title>Žaidimų rekomendacijos</title>
+      <link>https://DeividasStud.github.io/zaidimai/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://DeividasStud.github.io/zaidimai/</guid>
+      <description>&lt;div style=&#34;display:grid; grid-template-columns: repeat(3, 1fr); gap:10px;&#34;&gt;&#xA;  &lt;div&gt;&lt;img src=&#34;https://DeividasStud.github.io/images/botw.jpg&#34; alt=&#34;Žaidimas 1&#34; style=&#34;width:100%; height:150px; object-fit:cover&#34;&gt;&lt;p&gt;The Legend of Zelda: Breath of the Wild&lt;/p&gt;&lt;/div&gt;&#xA;  &lt;div&gt;&lt;img src=&#34;https://DeividasStud.github.io/images/botw.jpg&#34; alt=&#34;Žaidimas 2&#34; style=&#34;width:100%; height:150px; object-fit:cover&#34;&gt;&lt;p&gt;The Legend of Zelda: Breath of the Wild&lt;/p&gt;&lt;/div&gt;&#xA;  &lt;div&gt;&lt;img src=&#34;https://DeividasStud.github.io/images/botw.jpg&#34; alt=&#34;Žaidimas 3&#34; style=&#34;width:100%; height:150px; object-fit:cover&#34;&gt;&lt;p&gt;The Legend of Zelda: Breath of the Wild&lt;/p&gt;&lt;/div&gt;&#xA;  &lt;div&gt;&lt;img src=&#34;https://DeividasStud.github.io/images/totk.jpg&#34; alt=&#34;Žaidimas 4&#34; style=&#34;width:100%; height:150px; object-fit:cover&#34;&gt;&lt;p&gt;The Legend of Zelda: Tears of the Kingdom&lt;/p&gt;&lt;/div&gt;&#xA;  &lt;div&gt;&lt;img src=&#34;https://DeividasStud.github.io/images/totk.jpg&#34; alt=&#34;Žaidimas 5&#34; style=&#34;width:100%; height:150px; object-fit:cover&#34;&gt;&lt;p&gt;The Legend of Zelda: Tears of the Kingdom&lt;/p&gt;&lt;/div&gt;&#xA;  &lt;div&gt;&lt;img src=&#34;https://DeividasStud.github.io/images/totk.jpg&#34; alt=&#34;Žaidimas 6&#34; style=&#34;width:100%; height:150px; object-fit:cover&#34;&gt;&lt;p&gt;The Legend of Zelda: Tears of the Kingdom&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Legend of Zelda: Breath of the Wild</title>
       <link>https://DeividasStud.github.io/posts/zelda-post/</link>
